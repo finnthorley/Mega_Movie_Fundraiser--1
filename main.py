@@ -1,19 +1,12 @@
-print("Hello World")
-# Functions go here 
-def not_blank(question):
-  valid = False
+name = ""
+count = 0
+MAX_TICKETS = 5
 
-  while not valid:
-    response = input(question)
+while name != "xxx" and count <= MAX_TICKETS:
+    print("You have {} seats "
+          "left".format(MAX_TICKETS - count))
+  
 
-    if response != "":
-      return response 
-    else:
-      print("Sorry - this can't be blank, "
-          "please enter your name")
-
-
-# Main Routine goes here
-name = not_blank("Name: ",
-                 "Sorry - this can't be blank, "
-                 "please enter your name")
+    # Get details...
+    name = input("Name: ")
+    count += 1
