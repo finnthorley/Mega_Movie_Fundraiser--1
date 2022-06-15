@@ -17,7 +17,7 @@ while name != "xxx" and count < MAX_TICKETS:
         print("*** There is only one seat left! ***")
 
     # Get details...
-    name = input("Name: ")
+    name = not_blank("Name: ")
     count += 1
     print()
 
