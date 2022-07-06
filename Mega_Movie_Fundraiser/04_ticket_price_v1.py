@@ -23,4 +23,4 @@ while name != "xxx":
 
   print("{} : ${:.2f}".format(name, ticket_price))
 
-print("Profit from tickets: ${:.2f}".format(profit))
+print("Profit from tickets: ${:.2f}".format(ticket_price))
